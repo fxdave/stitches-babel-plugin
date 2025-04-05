@@ -1,26 +1,27 @@
-# stitches-babel-plugin
+# babel-plugin-stitches
 
 ## Input
 
 ```js
-let foo = styled('div', {});
+let foo = styled("div", {});
 ```
 
 ## Output
 
 ```js
-let foo = styled.withConfig({ displayName: 'foo' })('div', {});
+let foo = styled.withConfig({ displayName: "foo" })("div", {});
 ```
 
 ## Installation
 
 1. Install packages
+
 ```sh
-$ npm install @stitches/react@1.3.1-1 stitches-babel-plugin
+$ npm install @stitches/react@1.3.1-1 babel-plugin-stitches
 ```
 
 2. Extend babelrc
-**.babelrc**
+   **.babelrc**
 
 ```json
 {
@@ -29,18 +30,17 @@ $ npm install @stitches/react@1.3.1-1 stitches-babel-plugin
 ```
 
 3. Use createStitches
+
 ```tsx
 import { createStitches } from "@stitches/react";
 
 // Using createStitches is required!!!
-const { styled } = createStitches(); 
+const { styled } = createStitches();
 
 const StyledForm = styled("form", {
   background: "red",
 });
 ```
-
-
 
 ## Acknowledgements
 

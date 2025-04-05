@@ -1,11 +1,11 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Babel plugin to add readable className to your styled component",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fxdave/stitches-babel-plugin.git"
   },
-  "name": "stitches-babel-plugin",
+  "name": "babel-plugin-stitches",
   "author": "Afzal Sayed, David Biro",
   "main": "lib/index.js",
   "devDependencies": {
