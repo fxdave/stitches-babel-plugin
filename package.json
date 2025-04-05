@@ -1,12 +1,12 @@
 {
   "version": "0.0.1",
-  "description": "Babel plugin to add displayName to your styled component",
+  "description": "Babel plugin to add readable className to your styled component",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afzalsayed96/babel-plugin-transform-stitches-display-name.git"
+    "url": "git+https://github.com/fxdave/stitches-babel-plugin.git"
   },
-  "name": "babel-plugin-transform-stitches-display-name",
-  "author": "Afzal Sayed",
+  "name": "stitches-babel-plugin",
+  "author": "Afzal Sayed, David Biro",
   "main": "lib/index.js",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
@@ -26,7 +26,8 @@
     "babel-plugin",
     "styled",
     "stitches",
-    "react"
+    "react",
+    "classNames"
   ],
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.10.4"
@@ -36,12 +37,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afzalsayed96/babel-plugin-transform-stitches-display-name/issues"
+    "url": "https://github.com/fxdave/stitches-babel-plugin/issues"
   },
-  "homepage": "https://github.com/afzalsayed96/babel-plugin-transform-stitches-display-name#readme",
-  "directories": {
-    "example": "examples",
-    "lib": "lib",
-    "test": "test"
-  }
+  "homepage": "https://github.com/fxdave/stitches-babel-plugin#readme",
 }
