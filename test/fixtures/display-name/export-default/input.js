@@ -1,1 +1,0 @@
-export default styled('div', {});
